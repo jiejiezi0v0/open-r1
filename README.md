@@ -147,7 +147,7 @@ To run SFT on a dataset distilled from DeepSeek-R1 with reasoning traces such as
 ```shell
 ACCELERATE_LOG_LEVEL=info accelerate launch --config_file recipes/accelerate_configs/zero3.yaml \
     src/open_r1/sft.py \
-    --config recipes/Qwen2.5-1.5B-Instruct/sft/config_demo.yaml
+    --config recipes/OpenR1-Qwen-7B/sft/config.yaml
 ```
 
 ### GRPO
